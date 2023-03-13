@@ -1,0 +1,32 @@
+{
+  "name": "searchy",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Joepolymath <joshuaajagbe96@gmail.com>",
+  "homepage": "https://github.com/Joepolymath/dsa-ninja#readme",
+  "license": "ISC",
+  "main": "dist/searchy.js",
+  "types": "dist/searchy.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joepolymath/dsa-ninja.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npx lerna run build --scope=searchy && jest"
+  },
+  "bugs": {
+    "url": "https://github.com/Joepolymath/dsa-ninja/issues"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "typescript": "^4.9.5"
+  }
+}
