@@ -20,7 +20,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "npx lerna run build --scope=sortify && jest"
+    "test": "npx lerna run build --scope=sortify && jest",
+    "test2": "jest"
   },
   "bugs": {
     "url": "https://github.com/Joepolymath/dsa-ninja/issues"

@@ -1,7 +1,7 @@
 'use strict';
 
-const sortify = require('..');
-const assert = require('assert').strict;
+const { bubble } = require('../dist/sortify.js');
 
-assert.strictEqual(sortify(), 'Hello from sortify');
-console.info('sortify tests passed');
+test('bubble sort', () => {
+  expect(bubble?.sort([5, 2, 6, 4])).toBe([2, 4, 5, 6]);
+});

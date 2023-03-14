@@ -1,8 +1,8 @@
-
 'use strict';
+import bubbleSort from './bubbleSort';
 
-module.exports = sortify;
+const sortify = {
+  bubble: bubbleSort,
+};
 
-function sortify(): string {
-  return 'Hello from sortify';
-}
+export default sortify;
