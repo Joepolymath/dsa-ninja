@@ -1,8 +1,9 @@
 'use strict';
-import bubbleSort from './bubbleSort';
+import sort from './bubbleSort/index';
 
-const sortify = {
-  bubble: bubbleSort,
-};
+// const sortify = {
+//   bubble: bubbleSort,
+// };
+console.log(sort);
 
-export default sortify;
+export default sort;
