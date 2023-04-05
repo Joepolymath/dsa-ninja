@@ -1,7 +1,7 @@
 'use strict';
 
-const sort = require('../dist/sortify.js');
+const sort = require('../dist/sortify');
 
 test('bubble sort', () => {
-  expect(sort([5, 2, 6, 4])).toBe([2, 4, 5, 6]);
+  expect(sort.default.bubble.sort([5, 2, 6, 4])).toStrictEqual([2, 4, 5, 6]);
 });
