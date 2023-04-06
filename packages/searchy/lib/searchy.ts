@@ -1,7 +1,5 @@
-'use strict';
+import binarySearch from './binarySearch';
 
-module.exports = searchy;
-
-function searchy(): string {
-  return 'Hello from searchy';
-}
+export default {
+  binary: binarySearch,
+};

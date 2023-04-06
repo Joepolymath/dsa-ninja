@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = structify;
+import Queue from './queue';
 
-function structify(): string {
-  return 'Hello from structify';
-}
+export default {
+  Queue,
+};

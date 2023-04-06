@@ -1,7 +1,8 @@
 'use strict';
+const search = require('../dist/searchy');
 
-const searchy = require('..');
-const assert = require('assert').strict;
-
-assert.strictEqual(searchy(), 'Hello from searchy');
-console.info('searchy tests passed');
+test('should find the given element', () => {
+  const element = 5;
+  const array = [1, 2, 3, 4, 5];
+  expect(search.default.binary.search(array, element)).toStrictEqual(4);
+});
