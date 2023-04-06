@@ -1,6 +1,6 @@
 {
   "name": "sortify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A package housing all sorting algorithms. Making them readily useful for developer to work and implement with.",
   "author": "Joepolymath <joshuaajagbe96@gmail.com>",
   "homepage": "https://github.com/Joepolymath/dsa-ninja#readme",
