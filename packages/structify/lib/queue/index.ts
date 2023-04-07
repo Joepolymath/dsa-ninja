@@ -21,6 +21,7 @@ class Queue {
     return this.array.push(element);
   };
 
+  //   dequeueing the queue
   dequeue = () => {
     return this.array.shift();
   };
